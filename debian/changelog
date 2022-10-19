@@ -1,0 +1,85 @@
+sphinxcontrib-autoprogram (0.1.7-1) unstable; urgency=medium
+
+  * Fix watchfile to detect new versions on github
+  * Drop debian/.gitignore
+  * Remove Tim Booth from Uploaders (Thanks Tim for all your work)
+  * New upstream version
+  * Standards-Version: 4.6.0 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Andreas Tille <tille@debian.org>  Thu, 07 Oct 2021 12:05:10 +0200
+
+sphinxcontrib-autoprogram (0.1.5-2) unstable; urgency=medium
+
+  * Drop Python2 support
+    Closes: #938531
+  * debhelper-compat 12
+  * Standards-Version: 4.4.0
+
+ -- Andreas Tille <tille@debian.org>  Wed, 04 Sep 2019 14:05:50 +0200
+
+sphinxcontrib-autoprogram (0.1.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * Standards-Version: 4.3.0; no changes needed.
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Wed, 23 Jan 2019 13:36:47 -0800
+
+sphinxcontrib-autoprogram (0.1.4-2) unstable; urgency=medium
+
+  [ Chris Lamb ]
+  * Make the build reproducible
+    Closes: #896138
+
+ -- Andreas Tille <tille@debian.org>  Fri, 20 Apr 2018 09:16:23 +0200
+
+sphinxcontrib-autoprogram (0.1.4-1) unstable; urgency=medium
+
+  * New upstream version
+    Closes: #895849
+  * cme fix dpkg-control
+  * debhelper 11
+  * Standards-Version: 4.1.4
+  * Point Vcs fields to salsa.debian.org
+  * Testsuite: autopkgtest-pkg-python
+  * Add dh-python to Build-Depends since this will be dropped from python3's
+    Depends soon
+  * Obtain source from Github since this download tarball contains all
+    needed files
+
+ -- Andreas Tille <tille@debian.org>  Wed, 18 Apr 2018 21:04:34 +0200
+
+sphinxcontrib-autoprogram (0.1.2-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Kevin Murray <spam@kdmurray.id.au>  Sun, 10 Jan 2016 10:52:56 +1100
+
+sphinxcontrib-autoprogram (0.1.1-2) unstable; urgency=medium
+
+  * Add a python3 package, python3-sphinxcontrib.autoprogram. Closes: #792188
+
+ -- Kevin Murray <spam@kdmurray.id.au>  Mon, 13 Jul 2015 00:02:46 +1000
+
+sphinxcontrib-autoprogram (0.1.1-1) unstable; urgency=medium
+
+  * Initial upload to Debian
+
+ -- Andreas Tille <tille@debian.org>  Sat, 31 Jan 2015 23:06:15 +0100
+
+sphinxcontrib-autoprogram (0.1.1-0biolinux3) trusty; urgency=medium
+
+  * Add patch from Michael Crusoe
+
+ -- Tim Booth <tbooth@ceh.ac.uk>  Sat, 31 Jan 2015 17:28:47 +0000
+
+sphinxcontrib-autoprogram (0.1.1-0biolinux2) trusty; urgency=low
+
+  * Initial release for Bio-Linux, as build dep for Khmer
+
+ -- Tim Booth <tbooth@ceh.ac.uk>  Tue, 26 Aug 2014 16:15:09 +0100

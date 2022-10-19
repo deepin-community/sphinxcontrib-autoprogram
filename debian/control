@@ -1,0 +1,33 @@
+Source: sphinxcontrib-autoprogram
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>,
+           Kevin Murray <spam@kdmurray.id.au>
+Section: python
+Testsuite: autopkgtest-pkg-python
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3,
+               python3-setuptools,
+               python3-sphinx,
+               python3-six
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/med-team/sphinxcontrib-autoprogram
+Vcs-Git: https://salsa.debian.org/med-team/sphinxcontrib-autoprogram.git
+Homepage: https://pythonhosted.org/sphinxcontrib-autoprogram/
+Rules-Requires-Root: no
+
+Package: python3-sphinxcontrib.autoprogram
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends}
+Description: automated documentation of CLI programs for Sphinx (Python 3)
+ This contrib extension, sphinxcontrib.autoprogram, provides an automated way
+ to document CLI programs. It scans argparse.ArgumentParser object, and then
+ expands it into a set of .. program:: and .. option:: directives.
+ .
+ In order to use it, add sphinxcontrib.autoprogram into extensions list of your
+ Sphinx configuration file (conf.py)
+ .
+ This package contains the Python 3 version.

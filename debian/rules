@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+export PYBUILD_DESTDIR_python3=debian/python3-sphinxcontrib.autoprogram
+
+%:
+	dh $@ --with=python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	find debian -name "*.pth" -delete
