@@ -1,3 +1,52 @@
+sphinxcontrib-autoprogram (0.1.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Standards-Version: 4.7.0 (no changes required).
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 03 Jun 2024 09:31:50 +0100
+
+sphinxcontrib-autoprogram (0.1.8-2) unstable; urgency=medium
+
+  * Team upload.
+  * add upstream patch for python3.12 compatibility
+
+ -- Alexandre Detiste <tchet@debian.org>  Wed, 13 Mar 2024 16:31:38 +0100
+
+sphinxcontrib-autoprogram (0.1.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 0.1.8
+  * Remove old patches applied upstream.
+  * Add new patch to remove python3-six dependency.
+
+ -- Alexandre Detiste <tchet@debian.org>  Sun, 07 Jan 2024 23:26:24 +0100
+
+sphinxcontrib-autoprogram (0.1.7-4) unstable; urgency=medium
+
+  * Team upload.
+  * Mock state_machine in AutoprogramDirectiveTestCase (Closes: #1030431)
+  * Switch to autopkgtest-pkg-pybuild
+  * Use dh-sequence-python3
+  * Bump policy version (no changes)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Fri, 10 Feb 2023 20:47:37 +0100
+
+sphinxcontrib-autoprogram (0.1.7-3) unstable; urgency=medium
+
+  * Fix watch file
+  * Standards-Version: 4.6.1 (routine-update)
+  * Adapt test to current output
+
+ -- Andreas Tille <tille@debian.org>  Tue, 29 Nov 2022 18:05:53 +0100
+
+sphinxcontrib-autoprogram (0.1.7-2) unstable; urgency=medium
+
+  * Move package to Debian Python Team
+  * Add missing build dependency on dh addon.
+
+ -- Andreas Tille <tille@debian.org>  Mon, 03 Jan 2022 14:29:42 +0100
+
 sphinxcontrib-autoprogram (0.1.7-1) unstable; urgency=medium
 
   * Fix watchfile to detect new versions on github

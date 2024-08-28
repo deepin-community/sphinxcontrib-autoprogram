@@ -7,9 +7,9 @@ from setuptools import setup, find_packages
 
 
 # Do not change the variable name.  It's parsed by doc/conf.py script.
-version = '0.1.7'
+version = '0.1.9'
 
-requires = ['Sphinx >= 1.2', 'six']
+requires = ['Sphinx >= 1.2']
 
 
 def readme():
@@ -31,24 +31,23 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
         'Environment :: Web Environment',
+        'Framework :: Sphinx :: Extension',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: Stackless',
         'Topic :: Documentation',
         'Topic :: Software Development :: Documentation',
         'Topic :: Utilities'
     ],
+    python_requires='>=3.8',
     platforms='any',
     packages=find_packages(),
     namespace_packages=['sphinxcontrib'],

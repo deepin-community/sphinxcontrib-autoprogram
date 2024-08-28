@@ -1,1 +1,10 @@
-.pc/
+*.egg-info/
+mypy_cache/
+*.pyc
+.*.swp
+.cache/
+.tox/
+__pycache__/
+build
+dist
+doc/_build/

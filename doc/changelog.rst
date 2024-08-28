@@ -1,13 +1,21 @@
 Changelog
 =========
 
-..
-   TODO Uncomment this:
+Version 0.1.9
+-------------
 
-   Version 0.1.8
-   -------------
+Released on March 13, 2024.
 
-   To be released.
+- Test against Python 3.12.
+- Drop support for Python 3.7.
+
+Version 0.1.8
+-------------
+
+Released on February 11, 2023.
+
+- Test against Python 3.10, 3.11.
+
 
 Version 0.1.7
 -------------
